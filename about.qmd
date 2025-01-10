@@ -1,9 +1,15 @@
 ---
-title: "About"
+title: ""
 ---
 
-About this site
+# About
 
-```{r}
-1 + 1
-```
+---
+
+Brayden Boyko is a fourth-year finance major at the University of Alberta with a robust background in elite-level hockey refereeing spanning nine years. His keen interest in quantitative finance has led to the development of a versatile skill set:
+
+-   **SQL Expertise:** At Grainger Canada's Finance team in Toronto, Brayden built complex tools to track freight and foreign exchange impacts on 7.5 million products.
+
+-   **Python Proficiency:** Over the last eight years, he has created automated investment research reports for approximately 65,000 investment products, accessible via an online dashboard.
+
+-   **R Skills:** Recently, Brayden collaborated with a coworker to construct a predictive model for wheat spreads, employing machine learning and web scraping techniques.

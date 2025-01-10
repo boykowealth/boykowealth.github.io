@@ -1,11 +1,19 @@
 ---
-title: "junk"
+title: ""
 ---
 
-This is a Quarto website.
+# Home
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+---
 
-```{r}
-1 + 1
-```
+### Boyko Terminal
+
+The Boyko Terminal is a comprehensive financial and economic data research platform designed to empower investors with robust analytical tools. Integrated with Boyko Wealth's automated reporting capabilities, the terminal allows users to generate reports seamlessly. Key features include web scraping for research, interconnected supply chain and logistics data, financial reporting tools, high-frequency models, backtesting capabilities, sensitivity analysis, advanced data visualization, and prebuilt quantitative models.
+
+[Learn More](https://boykowealth.com/)
+
+### Top Public Projects
+
+Boyko Wealth provides a variety of publicly available projects on GitHub. Some of the most popular are:
+
+### Top Private Projects
