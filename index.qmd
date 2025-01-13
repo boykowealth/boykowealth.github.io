@@ -8,9 +8,9 @@ title: ""
 
 ### Boyko Terminal
 
-The Boyko Terminal is a comprehensive financial and economic data research platform designed to empower investors with robust analytical tools. Integrated with Boyko Wealth's automated reporting capabilities, the terminal allows users to generate reports seamlessly. Key features include web scraping for research, interconnected supply chain and logistics data, financial reporting tools, high-frequency models, backtesting capabilities, sensitivity analysis, advanced data visualization, and prebuilt quantitative models.
+The Boyko Terminal is a powerful quantitative financial analytics and risk desktop application designed to bridge the gap between low-cost platforms (e.g., TradingView) and legacy terminals (e.g., Bloomberg). It provides access to a wide array of global financial data and advanced quantitative tools, empowering users to make informed financial decisions.
 
-[Learn More](https://boykowealth.com/)
+#### [Learn More](https://boykowealth.com/)
 
 ### Top Public Projects
 
