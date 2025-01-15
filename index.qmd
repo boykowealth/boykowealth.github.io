@@ -4,7 +4,7 @@ title: ""
 
 # Home
 
----
+------------------------------------------------------------------------
 
 ### Boyko Terminal
 
@@ -16,4 +16,26 @@ The Boyko Terminal is a powerful quantitative financial analytics and risk des
 
 Boyko Wealth provides a variety of publicly available projects on GitHub. Some of the most popular are:
 
+-   OpenFIGI Database Builder
+
+-   Equity Options Chain Database
+
+-   QuickFS API Financial Statement Builder
+
+-   Supply Chain Database Webscraper
+
+-   Bid-Ask Estimator - \[Modified Farshid Abdi and Angelo Ranaldo (2017)\]
+
+-   SnowFlake Python Databse Tool With Okta Verification
+
 ### Top Private Projects
+
+-   Boyko Terminal - Desktop Application
+
+-   International Financial Database Infrastructure
+
+-   International Investment Mapping Tool (Identifier Codes Across Regulators and Exchanges)
+
+-   Bootstrapped Options Implied Volatility Curve & Implied Pricing Curve
+
+-   Solana Automated Market Making Algorithm & Display

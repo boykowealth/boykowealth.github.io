@@ -2,11 +2,11 @@
 title: ""
 ---
 
-# Research 
+# Research
 
 Brayden Boyko has completed a variety of Academic and Private research in his life. In collaboration with others, he has covered a wide range of topics related to finance, economics, and commodities. Additionally, Brayden created a rules-based automated asset valuation software; which provides practical information regarding North American, European, and Australian securities.
 
-### Academic Research
+### Top Academic Research
 
 -   [Forecasting Spreads In The Canadian Western Spring Wheat Market For Insurance Firms - Brayden Boyko & Brandon Choi. December 7, 2024.](https://boykowealth.com/wp-content/uploads/2024/12/forecasting_cwrs13_5.html)
 
@@ -14,15 +14,12 @@ Brayden Boyko has completed a variety of Academic and Private research in his li
 
 -   Pfizer: A Comparative Analysis of Hedging in the Global Pharmaceutical Industry - Brayden Boyko, Sofia Jimenez Lemish, Annabel Luchinger, Brooke Friesen. December 7, 2023.
 
-### Private Research
+### Top Private Research
 
 -   Silicon Valley Bank (SVB) Insolvency Expectation - Brayden Boyko. November 2, 2022.
 
--   Equity Research: NYSE:PANL Pangaea Logistics Solutions - Brayden Boyko. April 3, 2023.
+-   Equity Research: NYSE:PANL Pangaea Logistics Solutions (Portfolio Theory) - Brayden Boyko. April 3, 2023.
 
-```{=html}
-<!-- -->
-```
 -   Lumber To Gold As A Measure of Global Sensitivity To Volatility - Brayden Boyko. June 19, 2023.
 
 -   Equity Research: NYSE:ZIM ZIM Integrated Shipping Services - Noah Shaffer & Brayden Boyko. July 11, 2023.
