@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Boyko -</title>
+<title>Boyko</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -122,9 +122,9 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#home" id="toc-home" class="nav-link active" data-scroll-target="#home">Home</a>
   <ul class="collapse">
-  <li><a href="#boyko-terminal" id="toc-boyko-terminal" class="nav-link" data-scroll-target="#boyko-terminal">Boyko Terminal</a></li>
   <li><a href="#top-public-projects" id="toc-top-public-projects" class="nav-link" data-scroll-target="#top-public-projects">Top Public Projects</a></li>
   <li><a href="#top-private-projects" id="toc-top-private-projects" class="nav-link" data-scroll-target="#top-private-projects">Top Private Projects</a></li>
+  <li><a href="#boyko-terminal" id="toc-boyko-terminal" class="nav-link" data-scroll-target="#boyko-terminal">Boyko Terminal</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -138,21 +138,37 @@ ul.task-list li input[type="checkbox"] {
 <section id="home" class="level1">
 <h1>Home</h1>
 <hr>
-<section id="boyko-terminal" class="level3">
-<h3 class="anchored" data-anchor-id="boyko-terminal">Boyko Terminal</h3>
-<p>The&nbsp;Boyko Terminal&nbsp;is a powerful quantitative financial analytics and risk desktop application designed to bridge the gap between low-cost platforms (e.g., TradingView) and legacy terminals (e.g., Bloomberg). It provides access to a wide array of global financial data and advanced quantitative tools, empowering users to make informed financial decisions.</p>
-<section id="learn-more" class="level4">
-<h4 class="anchored" data-anchor-id="learn-more"><a href="https://boykowealth.com/">Learn More</a></h4>
-</section>
-</section>
 <section id="top-public-projects" class="level3">
 <h3 class="anchored" data-anchor-id="top-public-projects">Top Public Projects</h3>
 <p>Boyko Wealth provides a variety of publicly available projects on GitHub. Some of the most popular are:</p>
+<ul>
+<li><p><a href="https://github.com/boykowealth/openfigi">OpenFIGI Database Builder</a></p></li>
+<li><p><a href="https://github.com/boykowealth/EquityOptionsChain_db">Equity Options Chain Database</a></p></li>
+<li><p><a href="https://github.com/boykowealth/quickfs_api">QuickFS API Financial Statement Builder</a></p></li>
+<li><p><a href="https://github.com/boykowealth/splc_webscraper">Supply Chain Database Webscraper</a></p></li>
+<li><p><a href="https://github.com/boykowealth/yfinance_bid_ask_estimate">Bid-Ask Estimator - [Modified Farshid Abdi and Angelo Ranaldo (2017)]</a></p></li>
+<li><p><a href="https://github.com/boykowealth/snowflake_okta">SnowFlake Python Databse Tool With Okta Verification</a></p></li>
+</ul>
 </section>
 <section id="top-private-projects" class="level3">
 <h3 class="anchored" data-anchor-id="top-private-projects">Top Private Projects</h3>
+<ul>
+<li><p>Boyko Terminal - Desktop Application</p></li>
+<li><p>International Financial Database Infrastructure</p></li>
+<li><p>International Investment Mapping Tool (Identifier Codes Across Regulators and Exchanges)</p></li>
+<li><p>Bootstrapped Options Implied Volatility Curve &amp; Implied Pricing Curve</p></li>
+<li><p>Solana Automated Market Making Algorithm &amp; Display</p></li>
+</ul>
+</section>
+<section id="boyko-terminal" class="level3">
+<h3 class="anchored" data-anchor-id="boyko-terminal">Boyko Terminal</h3>
+<p><img src="images/omp.png" class="img-fluid"></p>
+<p>The&nbsp;Boyko Terminal&nbsp;is a powerful quantitative financial analytics and risk desktop application designed to bridge the gap between low-cost platforms and legacy terminals. It provides access to a wide array of global financial data and advanced quantitative tools, empowering users to make informed financial decisions.</p>
+<section id="learn-more" class="level4">
+<h4 class="anchored" data-anchor-id="learn-more"><a href="https://boykowealth.com/">Learn More</a></h4>
 
 
+</section>
 </section>
 </section>
 
@@ -192,18 +208,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -235,7 +240,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -243,7 +270,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
