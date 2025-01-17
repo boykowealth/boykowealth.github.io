@@ -6,12 +6,6 @@ title: ""
 
 ------------------------------------------------------------------------
 
-### Boyko Terminal
-
-The Boyko Terminal is a powerful quantitative financial analytics and risk desktop application designed to bridge the gap between low-cost platforms (e.g., TradingView) and legacy terminals (e.g., Bloomberg). It provides access to a wide array of global financial data and advanced quantitative tools, empowering users to make informed financial decisions.
-
-#### [Learn More](https://boykowealth.com/)
-
 ### Top Public Projects
 
 Boyko Wealth provides a variety of publicly available projects on GitHub. Some of the most popular are:
@@ -39,3 +33,11 @@ Boyko Wealth provides a variety of publicly available projects on GitHub. Some o
 -   Bootstrapped Options Implied Volatility Curve & Implied Pricing Curve
 
 -   Solana Automated Market Making Algorithm & Display
+
+### Boyko Terminal
+
+![](images/omp.png)
+
+The Boyko Terminal is a powerful quantitative financial analytics and risk desktop application designed to bridge the gap between low-cost platforms and legacy terminals. It provides access to a wide array of global financial data and advanced quantitative tools, empowering users to make informed financial decisions.
+
+#### [Learn More](https://boykowealth.com/)
